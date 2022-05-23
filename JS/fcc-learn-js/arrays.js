@@ -12,6 +12,10 @@ console.log(myString.length);
 var myArray = [["Clippers", 3], ["Rockets", 13], ["Celtics", 21], ["Lakers", 24]];
 console.log(myArray);
 
+// push adds to the end of the array
+var pushArray = myArray.push(["Miami, 3"]);
+console.log(pushArray);
+
 // pop removes from the end of the array
 var myNewArray = myArray.pop();
 console.log(myArray);
