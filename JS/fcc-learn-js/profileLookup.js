@@ -32,6 +32,7 @@ const contacts = [
     for (let i = 0; i < contacts.length; i++) {
       if (name === contacts[i].firstName) {
         return contacts[i][prop] || "No such property";
+        // returns <this if this exists> ELSE <that>
         }
     }
     return result;
